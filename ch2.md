@@ -136,24 +136,24 @@ obs: b?
 
 ways to give b?  
 bb 2  
-bw 1*2   
-ww 0*3   
+bw 1x2     
+ww 0x3     
 
 ways(bb) / sum(ways) = 2/4 = 0.5
 
 2M7
 ---
 
-cards: bb, bw, ww
-obs: b?, w?
+cards: bb, bw, ww  
+obs: b?, w?  
 
-ways to give b? w?
-bb bw 2
-bb ww 4
-bw bb 0
-bw ww 2
-ww bw 0
-ww bb 0
+ways to give b? w?  
+bb bw 2  
+bb ww 4  
+bw bb 0  
+bw ww 2  
+ww bw 0  
+ww bb 0  
 
 ways(bb | b?, w?) / sum(ways) = 6/8 = 0.75
 
