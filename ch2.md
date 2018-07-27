@@ -105,39 +105,39 @@ pr.land.earth * pr.earth / mean(c(pr.land.earth, pr.land.mars))
 2M4
 ---
 
-cards: bb, bw, ww
-obs: b?
+cards: bb, bw, ww  
+obs: b?  
 
-ways to give b?:
-bb 2
-bw 1
-ww 0
+ways to give b?:  
+bb 2  
+bw 1  
+ww 0  
 
 ways(bb) / sum(ways) = 2/3
 
 2M5
 ---
 
-cards: bb, bw, ww, bb
-obs: b?
+cards: bb, bw, ww, bb  
+obs: b?  
 
-ways to give b?
-bb 4
-bw 1
-ww 0
+ways to give b?  
+bb 4  
+bw 1  
+ww 0  
 
 ways(bb) / sum(ways) = 4/5
 
 2M6
 ---
 
-cards: bb, bw, ww
-obs: b?
+cards: bb, bw, ww  
+obs: b?  
 
-ways to give b?
-bb 2
-bw 1*2
-ww 0*3
+ways to give b?  
+bb 2  
+bw 1*2   
+ww 0*3   
 
 ways(bb) / sum(ways) = 2/4 = 0.5
 
